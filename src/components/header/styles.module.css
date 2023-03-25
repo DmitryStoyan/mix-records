@@ -72,14 +72,12 @@
   transform: scale(0.93);
 }
 
-.menu_icon {
+/* .menu_icon {
   display: none;
-}
+} */
 
 .menu_button_wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: end;
+  display: none;
 }
 
 @media only screen and (max-width: 960px) {
@@ -157,6 +155,12 @@
 
   .navigation {
     display: none;
+  }
+
+  .menu_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
   }
 
   .menu_icon {
