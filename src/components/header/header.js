@@ -19,7 +19,7 @@ export function Header() {
         </nav>
         <div className={styles.main}>
           <h1 className={styles.title}>Студия звукозаписи MIX</h1>
-          <p className={styles.text}>
+          <p className={styles.subtitle}>
             Студия звукозаписи полного цикла и музыкальный лейбл.
           </p>
         </div>
