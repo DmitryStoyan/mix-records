@@ -1,0 +1,48 @@
+.card_wrapper {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.price_card {
+  font-family: "Montserrat";
+  border: 4px solid;
+  border-image-source: linear-gradient(194.04deg, #a749ff 7.5%, #44d5a3 92.5%);
+  border-image-slice: 1;
+}
+
+.price_image {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  outline: 3px red solid;
+}
+
+.price_name {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.price_subtitle {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  outline: 3px red solid;
+}
+
+.price {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  outline: 3px red solid;
+}

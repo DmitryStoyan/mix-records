@@ -3,7 +3,7 @@
   height: 955px;
   padding: 0;
   margin: 0 auto;
-  background-image: url(../../pages/header.png);
+  background-image: url(../../images/header.png);
   color: white;
   font-family: "Montserrat";
   background-position: center top;
@@ -52,7 +52,7 @@
 
 .subtitle {
   width: 512px;
-  margin: 0 0 55px 0;
+  padding: 0 0 55px 0;
   font-size: 22px;
   font-weight: bold;
 }
