@@ -57,21 +57,6 @@
   font-weight: bold;
 }
 
-.button {
-  width: 33%;
-  height: 52px;
-  font-size: 16px;
-  font-family: "Montserrat";
-  color: #ffffff;
-  background-image: linear-gradient(#a749ff, #44d5a3);
-  border: none;
-}
-
-.button:hover {
-  box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
-  transform: scale(0.93);
-}
-
 /* .menu_icon {
   display: none;
 } */

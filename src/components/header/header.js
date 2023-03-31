@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Button } from "../button/Button";
 
 export function Header() {
   return (
@@ -23,7 +24,7 @@ export function Header() {
             Студия звукозаписи полного цикла и музыкальный лейбл.
           </p>
         </div>
-        <button className={styles.button}>Забронировать время студии</button>
+        <Button />
       </div>
     </header>
   );

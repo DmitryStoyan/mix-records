@@ -1,4 +1,4 @@
-import { dividerClasses } from "@mui/material";
+// import { Button, dividerClasses } from "@mui/material";
 import React from "react";
 import styles from "./styles.module.css";
 import album from "../../images/album.png";
@@ -14,6 +14,7 @@ import picture from "../../images/picture.png";
 import promo from "../../images/promo.png";
 import track from "../../images/track.png";
 import { Card } from "./components/Card";
+import { Button } from "../button/Button";
 
 export function Price() {
   return (
@@ -29,7 +30,19 @@ export function Price() {
         </p>
         <div className={styles.price_wrapper}>
           <Card />
+          <Card />
+          <Card />
         </div>
+        <p className={styles.price_title}>offline</p>
+        <div className={styles.price_wrapper}>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <Button />
       </div>
     </div>
   );
