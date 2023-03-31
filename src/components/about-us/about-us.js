@@ -1,4 +1,3 @@
-import { dividerClasses } from "@mui/material";
 import React from "react";
 import styles from "./styles.module.css";
 
