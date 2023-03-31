@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 export function AboutUs() {
   return (
     <div className={styles.wrapper}>
-      <p className={styles.title}>немного о нас</p>
+      <h3 className={styles.title}>немного о нас</h3>
       <div className={styles.video_wrapper}>
         <iframe
           className={styles.video}
