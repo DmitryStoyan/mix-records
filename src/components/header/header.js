@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Button } from "../button/Button";
+import { navigation } from "./components/navigation";
 
 export function Header() {
   return (
@@ -12,10 +13,16 @@ export function Header() {
         </div>
         <nav className={styles.navigation}>
           <ul className={styles.navigation_list}>
-            <li className={styles.navigation_element}>О нас</li>
-            <li className={styles.navigation_element}>Услуги</li>
-            <li className={styles.navigation_element}>Сертификат</li>
-            <li className={styles.navigation_element}>Как нас найти</li>
+            {navigation.map((item, index) => (
+              <li
+                className={styles.navigation_element}
+                key={`navigation item ${index}`}
+              >
+                <a href={item.link} className={styles.link}>
+                  {item.title}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
         <div className={styles.main}>

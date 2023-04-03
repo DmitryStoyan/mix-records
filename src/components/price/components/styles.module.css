@@ -14,7 +14,6 @@
   margin: 0;
   padding: 0;
   width: 50px;
-  outline: 3px red solid;
 }
 
 .price_name {
@@ -34,7 +33,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  outline: 3px red solid;
 }
 
 .price {
@@ -44,5 +42,4 @@
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  outline: 3px red solid;
 }

@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 1920px;
+  background: #221244;
+  outline: 3px red solid;
+}
+
+.content_wrapper {
+  width: 32.7%;
+  padding: 7.25% 0 0 23%;
+  outline: 3px red solid;
+}
+
+.title {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 1.2% 0;
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline: 3px red solid;
+}
+
+.subtitle {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 6.8% 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  outline: 3px red solid;
+}
