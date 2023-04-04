@@ -28,18 +28,9 @@ export function Price() {
         <p className={styles.price_title}>
           <span className={styles.title_color}>online &</span> offline
         </p>
-        <div className={styles.price_wrapper}>
-          <Card />
-          <Card />
-          <Card />
-        </div>
+        <div className={styles.price_wrapper}></div>
         <p className={styles.price_title}>offline</p>
         <div className={styles.price_wrapper}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
           <Card />
         </div>
         <Button />
