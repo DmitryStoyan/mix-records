@@ -17,12 +17,14 @@ export function Certificate() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
-        <form>
-          <input name="name" type="text" placeholder="Фамилия Имя" />
-          <input name="email" type="email" placeholder="E-mail" />
-          <input name="number" type="number" placeholder="Номер телефона" />
-          <Button />
-        </form>
+        <div className={styles.form_wrapper}>
+          <form className={styles.form}>
+            <input name="name" type="text" placeholder="Фамилия Имя" />
+            <input name="email" type="email" placeholder="E-mail" />
+            <input name="number" type="number" placeholder="Номер телефона" />
+            <Button />
+          </form>
+        </div>
       </div>
     </div>
   );

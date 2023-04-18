@@ -1,5 +1,6 @@
 .wrapper {
   max-width: 1920px;
+  margin: 0 auto;
   background: #221244;
   outline: 3px red solid;
 }
@@ -29,4 +30,15 @@
   font-size: 18px;
   color: #ffffff;
   outline: 3px red solid;
+}
+
+.form_wrapper {
+  display: flex;
+}
+
+.form {
+  /* display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0; */
 }
