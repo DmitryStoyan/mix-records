@@ -7,6 +7,14 @@ export function Certificate() {
   const [email, setEmail] = useState();
   const [number, setNumber] = useState();
 
+  const [nameDirty, setNameDirty] = useState(false);
+  const [emailDirty, setEmailDirty] = useState(false);
+  const [numberDirty, setNumberDirty] = useState(false);
+
+  const [nameError, setNameError] = useState("Имя не может быть пустым");
+  const [emailError, setEmailError] = useState("email не может быть пустым");
+  const [numberError, setNumberError] = useState("Номер не может быть пустым");
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.content_wrapper}>
@@ -19,11 +27,26 @@ export function Certificate() {
         </p>
         <div className={styles.form_wrapper}>
           <form className={styles.form}>
-            <input name="name" type="text" placeholder="Фамилия Имя" />
-            <input name="email" type="email" placeholder="E-mail" />
-            <input name="number" type="number" placeholder="Номер телефона" />
-            <Button />
+            <input
+              name="name"
+              type="text"
+              placeholder="Фамилия Имя"
+              className={`${styles.input_name} ${styles.input}`}
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="E-mail"
+              className={styles.input}
+            />
+            <input
+              name="number"
+              type="number"
+              placeholder="Номер телефона"
+              className={styles.input}
+            />
           </form>
+          <Button />
         </div>
       </div>
     </div>

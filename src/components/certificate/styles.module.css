@@ -7,7 +7,7 @@
 
 .content_wrapper {
   width: 32.7%;
-  padding: 7.25% 0 0 23%;
+  padding: 7.25% 0 7.25% 23%;
   outline: 3px red solid;
 }
 
@@ -33,12 +33,22 @@
 }
 
 .form_wrapper {
-  display: flex;
+  /* display: flex; */
 }
 
 .form {
-  /* display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 25px 29px;
   padding: 0;
-  margin: 0; */
+  margin: 0 0 46px 0;
+}
+
+.input {
+  height: 41px;
+}
+
+.input_name {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
