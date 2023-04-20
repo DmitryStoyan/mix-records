@@ -1,4 +1,5 @@
 .wrapper {
+  position: relative;
   max-width: 1920px;
   margin: 0 auto;
   background: #221244;
@@ -51,4 +52,55 @@
 .input_name {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.error {
+  display: flex;
+  color: red;
+  margin: 0;
+  padding: 0;
+  height: 10px;
+  outline: 3px red solid;
+}
+
+.rectangle {
+  position: absolute;
+  background-image: url(../../images/rectangle.jpg);
+  width: 17.5%;
+  height: 35%;
+  left: 60%;
+  top: 40%;
+  background: rgba(146, 73, 255, 0.54);
+}
+
+.ellipse {
+  position: absolute;
+  background-image: url(../../images/ellipse.jpg);
+  width: 194.18px;
+  height: 194.18px;
+  left: 1572.16px;
+  top: 133.5px;
+  border-radius: 50%;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.ellipse2 {
+  position: absolute;
+  background-image: url(../../images/ellipse2.jpg);
+  width: 23.06px;
+  height: 23.03px;
+  left: 1569.15px;
+  top: 87.78px;
+  background: #3e09b4;
+  border-radius: 50%;
+}
+
+.polygon {
+  position: absolute;
+  background-image: url(../../images/polygon.png);
+  width: 74.67px;
+  height: 76.44px;
+  left: 1603.57px;
+  top: 580.23px;
 }
