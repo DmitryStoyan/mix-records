@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 7.29% 0 0 0;
+  outline: 3px red solid;
+}
+
+.title {
+  width: 23%;
+  font-size: 44px;
+  margin: 0 auto;
+  padding: 0 0 4% 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  outline: 3px red solid;
+}

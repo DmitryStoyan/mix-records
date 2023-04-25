@@ -1,8 +1,9 @@
+import { Header } from "./components/header/Header";
 import { AboutUs } from "./components/about-us/About-us";
 import { Certificate } from "./components/certificate/certificate";
 import { Examples } from "./components/examples/examples";
-import { Header } from "./components/header/Header";
 import { Price } from "./components/price/Price";
+import { Location } from "./components/location/location";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Price />
       <Examples />
       <Certificate />
+      <Location />
     </div>
   );
 }
