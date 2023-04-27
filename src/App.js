@@ -4,6 +4,7 @@ import { Certificate } from "./components/certificate/certificate";
 import { Examples } from "./components/examples/examples";
 import { Price } from "./components/price/Price";
 import { Location } from "./components/location/location";
+import { Footer } from "./components/footer/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Examples />
       <Certificate />
       <Location />
+      <Footer />
     </div>
   );
 }
