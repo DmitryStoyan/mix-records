@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Button } from "../button/Button";
 import { navigation } from "./components/navigation";
-import { useState } from "react";
 
 export function Header() {
   return (
