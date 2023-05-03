@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Button } from "../button/Button";
 import { navigation } from "./components/navigation";
+import { useState } from "react";
 
 export function Header() {
   return (
@@ -13,11 +14,8 @@ export function Header() {
         </div>
         <nav className={styles.navigation}>
           <ul className={styles.navigation_list}>
-            {navigation.map((item, index) => (
-              <li
-                className={styles.navigation_element}
-                key={`navigation item ${index}`}
-              >
+            {navigation.map((item) => (
+              <li className={styles.navigation_element} key={item.id}>
                 <a href={item.link} className={styles.link}>
                   {item.title}
                 </a>
@@ -31,7 +29,7 @@ export function Header() {
             Студия звукозаписи полного цикла и музыкальный лейбл.
           </p>
         </div>
-        <Button />
+        <Button title={"Забронировать время студии"} />
       </div>
     </header>
   );

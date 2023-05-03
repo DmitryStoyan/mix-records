@@ -8,11 +8,8 @@ export function Footer() {
       <div className={styles.content_wrapper}>
         <nav className={styles.navigation}>
           <ul className={styles.navigation_list}>
-            {navigation.map((item, index) => (
-              <li
-                className={styles.navigation_element}
-                key={`navigation item ${index}`}
-              >
+            {navigation.map((item) => (
+              <li className={styles.navigation_element} key={item.id}>
                 <a href={item.link} className={styles.link}>
                   {item.title}
                 </a>

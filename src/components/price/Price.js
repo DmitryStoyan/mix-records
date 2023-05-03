@@ -31,7 +31,7 @@ export function Price() {
             <Card card={card} />
           ))}
         </div>
-        <Button />
+        <Button title={"Обратный звонок"} />
       </div>
     </div>
   );

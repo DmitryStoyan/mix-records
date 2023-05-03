@@ -1,10 +1,12 @@
+import { useState } from "react";
+
 import { Header } from "./components/header/Header";
 import { AboutUs } from "./components/about-us/About-us";
-import { Certificate } from "./components/certificate/certificate";
-import { Examples } from "./components/examples/examples";
+import { Certificate } from "./components/certificate/Certificate";
+import { Examples } from "./components/examples/Examples";
 import { Price } from "./components/price/Price";
-import { Location } from "./components/location/location";
-import { Footer } from "./components/footer/footer";
+import { Location } from "./components/location/Location";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (

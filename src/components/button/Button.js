@@ -1,6 +1,5 @@
-import React from "react";
 import styles from "./styles.module.css";
 
-export function Button() {
-  return <button className={styles.button}>Забронировать время студии</button>;
+export function Button(props) {
+  return <button className={styles.button}>{props.title}</button>;
 }
