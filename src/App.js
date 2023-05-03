@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { Header } from "./components/header/Header";
 import { AboutUs } from "./components/about-us/About-us";
 import { Certificate } from "./components/certificate/Certificate";
